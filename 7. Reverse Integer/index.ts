@@ -1,5 +1,5 @@
 function reverse(x: number): number {
-    let res = 0;
+    let res;
     if (x<0)
         res = -Number(x.toString().split("").slice(1).reverse().join(''));
     else
